@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://cpcx6y5ngnjt7"]
+
+[node name="start_menu" type="Node2D"]
+
+[node name="navigation_button" type="Node2D" parent="."]
+
+[node name="new_game" type="Button" parent="navigation_button"]
+offset_left = 470.0
+offset_top = 98.0
+offset_right = 697.0
+offset_bottom = 167.0
+text = "New Game"
+
+[node name="settings" type="Button" parent="navigation_button"]
+offset_left = 470.0
+offset_top = 255.0
+offset_right = 697.0
+offset_bottom = 324.0
+text = "Settings"
+
+[node name="quit_to_desktop" type="Button" parent="navigation_button"]
+offset_left = 471.0
+offset_top = 417.0
+offset_right = 698.0
+offset_bottom = 486.0
+text = "Quit To Desktop"
